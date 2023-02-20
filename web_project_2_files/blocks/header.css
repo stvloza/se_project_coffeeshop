@@ -1,0 +1,145 @@
+.header {
+  background-color: #fff;
+  background-image: url(../images/background_header.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+  margin: auto;
+  padding: auto;
+  min-height: 720px;
+  max-height: 800px;
+}
+
+.header__title {
+  width: 729px;
+  font-size: 60px;
+  line-height: 72px;
+  margin-top: 80px;
+  margin-left: 80px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.span-accent {
+  display: block;
+  font-family: Noto serif;
+  font-style: italic;
+  font-size: 60px;
+  line-height: 72px;
+  color: #2f80ed;
+}
+
+.header__description {
+  max-width: 683px;
+  font-size: 20px;
+  line-height: 30px;
+  margin-top: 28px;
+  margin-left: 80px;
+  margin-bottom: 0;
+  font-family: Noto serif;
+  font-style: normal;
+  font-weight: normal;
+}
+
+.header_image {
+  max-width: 646px;
+  top: 124px;
+  right: 5px;
+  position: absolute;
+  z-index: 1;
+}
+
+.header__paragraphs {
+  display: flex;
+  justify-content: space-between;
+  align-self: flex-end;
+  color: #6f6f6f;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  width: 100%;
+}
+
+.header__paragraph {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  margin: auto;
+}
+
+.header__link {
+  color: #2f80ed;
+  text-decoration: none;
+}
+
+.header__link:hover {
+  color: #1f69c9;
+}
+
+.header__address {
+  display: flex;
+  justify-content: flex-end;
+  align-self: flex-end;
+  margin: 0;
+  z-index: 1;
+}
+
+.header__footer {
+  position: absolute;
+  left: 0;
+  bottom: 40px;
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+  padding: 40px 80px 0;
+  justify-content: space-between;
+  box-sizing: border-box;
+  font-family: Inter;
+}
+
+.logo {
+  position: absolute;
+  left: 30px;
+  top: 30px;
+  width: 125px;
+  height: 142px;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 80px;
+  padding-top: 30px;
+  padding-right: 80px;
+  justify-content: flex-end;
+  margin: 0;
+}
+
+.nav__links {
+  display: flex;
+  align-items: center;
+  column-gap: 20px;
+  list-style: none;
+  padding: 0;
+}
+
+.nav__link {
+  color: #000000;
+  text-decoration: none;
+  font-weight: bold;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.nav__link:hover {
+  color: #2f80ed;
+  transition: linear 0.6s;
+}

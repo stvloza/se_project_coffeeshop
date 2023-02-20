@@ -21,12 +21,12 @@
     />
     <title>Practicum Coffee Shop</title>
   </head>
-
   <body>
     <div class="page">
       <header class="header">
-        <img class="logo" src="./images/logo_coffee_shop.svg" />
         <nav class="nav">
+          <img class="logo" src="./images/logo_coffee_shop.svg" />
+
           <ul class="nav__links">
             <li>
               <a class="nav__link" href="#menu">Menu</a>
@@ -43,30 +43,40 @@
           </ul>
         </nav>
         <h1 class="header__title">
-          Specialty coffee
-          <span class="span-accent"> in the Practicum Library </span>
+          <span class="span-accent"> Specialty coffee </span>
+          in&nbsp;the&nbsp;Practicum&nbsp;Library
         </h1>
-        <div class="description">
-          <p>
-            Welcome to our study zone! We've got the coffee to energize you and
-            the cozy vibes to help you get creative.
-          </p>
+        <p class="header__description">
+          Welcome to our study zone! We've got the coffee to energize you and
+          the cozy vibes to help you get creative.
+        </p>
+        <img class="header_image" src="./images/inside_coffee_shop.png" />
+
+        <div class="header__footer">
+          <div class="header__paragraphs"> 
+            <div class="header__hours"> 
+          <p class="header__paragraph">Hours:</div>
+          <p class="header__paragraph">Monday-Friday (10:00 - 19:00)</p>
+          <p class="header__paragraph">Saturday-Sunday (11:00 - 18:00)</p>
+          </div>
+          <p class="header__address">200 Success Avenue, The Town of Practicum</p>
         </div>
-        <div class="image">
-          <img class="header_image" src="./images/inside_coffee_shop.png" />
-        </div>
-        <div class="paragraph">
-          <div>Hours:</div>
-          <div>Monday-Friday (10:00 - 19:00)</div>
-          <div>Saturday-Sunday (11:00 - 18:00)</div>
-          <div>200 Success Avenue, The Town of Practicum</div>
-        </div>
+      </div>
       </header>
-      <section class="menu"></section>
+      <main class="content"> 
+      <section class="menu">
+        <h1 class="menu_title">Menu</h1>
+        <p class="subtitle">
+          We brew coffee from locally roasted, Fairtrade certified beans and use
+          biodegradable cups. All teas from our collection are $2/cup.
+        </p>
+        <div class="menu__cards"></div>
+      </section>
       <section class="recipes"></section>
       <section class="reservation"></section>
       <section class="about"></section>
       <footer class="footer"></footer>
     </div>
+  </main>
   </body>
 </html>
