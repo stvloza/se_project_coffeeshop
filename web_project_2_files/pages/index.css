@@ -12,6 +12,7 @@ font-family: 'Noto Serif', Times New Roman, serif;*/
   margin: auto 0;
   min-height: 720px;
   max-height: 800px;
+  background-size: cover;
 }
 
 .header__title {
@@ -76,6 +77,11 @@ font-family: 'Noto Serif', Times New Roman, serif;*/
   color: #000000;
   text-decoration: none;
   font-weight: bold;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
 }
 
 .nav__link:hover {
@@ -87,4 +93,20 @@ font-family: 'Noto Serif', Times New Roman, serif;*/
   max-width: 683px;
   right: 80px;
   top: 28px;
+  font-family: Noto Serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.paragraph {
+  align-items: baseline;
+  left: 80px;
+  bottom: 40px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
 }
