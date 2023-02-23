@@ -42,7 +42,7 @@
           </ul>
         </nav>
         <h1 class="header__title">
-          <span class="span-accent"> Specialty coffee </span>
+          <span class="header__span-accent"> Specialty coffee </span>
           in&nbsp;the&nbsp;Practicum&nbsp;Library
         </h1>
         <p class="header__description">
@@ -52,15 +52,17 @@
         <img class="header__image" src="./images/inside_coffee_shop.png" alt="illustration of a library" />
 
         <div class="header__footer">
-          <div class="header__paragraphs"> 
-            <div class="header__hours"> 
-          <p class="header__paragraph">Hours:</p>
-          <p class="header__paragraph">Monday-Friday (10:00 - 19:00)</p>
-          <p class="header__paragraph">Saturday-Sunday (11:00 - 18:00)</p>
+
+          <div class="header__hours">
+            <p class="header__paragraph">Hours:</p>
+            <p class="header__paragraph">Monday-Friday (10:00-19:00)</p>
+            <p class="header__paragraph">Saturday-Sunday (11:00-18:00)</p>
           </div>
-          <p class="header__address">200 Success Avenue, The Town of Practicum</p>
+          <p class="header__address">
+            200 Success Avenue, The Town of Practicum
+          </p>
+  
         </div>
-      </div>
       </header>
       <main class="content"> 
       <section id="menu" class="menu">
@@ -103,16 +105,25 @@
             </div>
           </div>
       </section>
-      <section id="recipes" class="recipes"> 
-        <h2 class="recipes__title"> Recipes </h2> 
-        <p class="recipes__subtitle">Check out some recipes we've collected for your home-brewing convenience: </p> 
-        <div class="recipes__videos"> 
-        <iframe class="recipes__iframe" src="https://www.youtube.com/watch?v=j6VlT_jUVPc " title="Aeropress" > </iframe>
-        <iframe class="recipes__iframe" src="https://www.youtube.com/watch?v=st571DYYTR8 " title="French Press" > </iframe>
-      </div>
-      <h3 class="recipes__video-caption"> Aeropress recipe
-        ~5 min   French press recipe
-        ~15 min</h3>
+      <section id="recipes-link" class="recipes">
+        <h2 class="recipes__title">Recipes</h2>
+        <p class="recipes__subtitle">Check out some recipes we've collected for your home-brewing convenience:</p>
+        <div class="recipes__videos">
+          <div class="recipes__video">
+            <iframe class="recipes__iframe" src="https://www.youtube.com/embed/j6VlT_jUVPc"></iframe>
+            <p class="recipes__video-caption">
+              <span><span>Aeropress recipe</span>
+                <span>~5 min</span></span>
+            </p>
+          </div>
+          <div class="recipes__video">
+            <iframe class="recipes__iframe" src="https://www.youtube.com/embed/st571DYYTR8"></iframe>
+            <p class="recipes__video-caption">
+              <span>French press recipe</span>
+              <span>~15 min</span>
+            </p>
+          </div>
+        </div>
       </section>
       <section class="reservation"></section>
       <section class="about"></section>
