@@ -3,8 +3,7 @@
 }
 
 .card__title {
-  font-family: Inter;
-  font-style: normal;
+  font-family: "Inter";
   font-weight: bold;
   font-size: 20px;
   line-height: 30px;
@@ -12,9 +11,7 @@
 }
 
 .card__list {
-  font-family: Noto serif;
-  font-style: normal;
-  font-weight: normal;
+  font-family: "Noto", serif;
   font-size: 16px;
   line-height: 20px;
   padding: 0;
@@ -28,6 +25,6 @@
 
 .card__list-divider {
   display: flex;
-  border-bottom: 2px solid white;
+  border-bottom: 2px solid #fff;
   flex-grow: 2;
 }

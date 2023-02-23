@@ -10,8 +10,7 @@
 .menu__title {
   display: flex;
   flex-basis: auto;
-  font-family: Inter;
-  font-style: normal;
+  font-family: "Inter";
   font-weight: 500;
   font-size: 44px;
   line-height: 52px;
@@ -24,9 +23,7 @@
 }
 
 .menu__subtitle {
-  font-family: Noto Serif;
-  font-style: normal;
-  font-weight: normal;
+  font-family: "Noto", Serif;
   font-size: 20px;
   line-height: 30px;
   justify-content: center;
