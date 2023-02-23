@@ -125,10 +125,35 @@
           </div>
         </div>
       </section>
-      <section class="reservation"></section>
+      <section class="reservation">
+        <h2 id="reservations" class="reservation__title"> Book a Table </h2>
+        <form class="reservation__form form">
+          <fieldset class="form__fieldset">
+            <label for="name" class="form__label">Name *</label>
+            <input type="text" class="form__input" id="name" name="name" placeholder="Name Surname" required />
+            <label for="number_of_guests" class="form__label">Number of Guests *</label>
+            <input type="number" max="8" min="1" class="form__input" id="number_of_guests" name="number of guests"
+              placeholder="1-8" required />
+            <label for="date_&_time" class="form__label">Date & time *</label>
+            <input type="datetime-local" class="form__input" id="date_&_time" name="Date & time" required />
+            <label for="your_email" class="form__label">Your email *</label>
+            <input type="email" class="form__input" id="your_email" name="your email" placeholder="email@email.com"
+              required />
+          </fieldset>
+          <fieldset class="form__fieldset">
+            <button class="form__button form__button_theme" type="button">Book a table</button>
+          </fieldset>
+          <fieldset class="form__fieldset form__fieldset_checkbox">
+            <input type="checkbox" class="form__checkbox" name="i-agree" id="i-agree" required />
+            <label class="form__label form__label_type_checkbox" for="i-agree">I agree with the terms of use</label>
+          </fieldset>
+        </form>
+      </section>
       <section class="about"></section>
       <footer class="footer"></footer>
     </div>
   </main>
+  <footer>
+      </footer>
   </body>
 </html>
