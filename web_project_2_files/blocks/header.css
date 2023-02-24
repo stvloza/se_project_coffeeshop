@@ -81,38 +81,3 @@
   margin: 0;
   z-index: 1;
 }
-
-.nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  margin: 0px;
-  font-family: "Inter", "Arial", sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 20px;
-}
-
-.nav__links {
-  display: flex;
-  align-items: center;
-  margin-top: 30px;
-  margin-right: 80px;
-  column-gap: 20px;
-  list-style: none;
-  padding: 0;
-}
-
-.nav__link {
-  color: #000000;
-  transition-property: color;
-  transition-duration: 1s;
-  transition-timing-function: linear;
-  transition-delay: 0.5s;
-  text-decoration: none;
-}
-
-.nav__link:hover {
-  color: #1f69c9;
-}
