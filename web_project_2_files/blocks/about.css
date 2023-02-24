@@ -45,7 +45,6 @@
 }
 
 .about__paragraph {
-  justify-content: flex-start;
   margin: 0;
   font-family: "Noto Serif", "Times New Roman", Serif;
   font-size: 20px;

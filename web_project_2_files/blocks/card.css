@@ -1,9 +1,5 @@
 .card {
-  display: flex;
-  flex-direction: column;
   max-width: 600px;
-  flex-grow: 1;
-  color: #ffffff;
   flex-basis: 45%;
 }
 

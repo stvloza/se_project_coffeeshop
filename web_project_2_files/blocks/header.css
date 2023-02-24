@@ -9,6 +9,7 @@
   max-height: 800px;
   min-height: 720px;
   margin: auto;
+  z-index: -2;
 }
 
 .header__title {
@@ -49,6 +50,7 @@
   max-width: 646px;
   top: 124px;
   right: 5px;
+  z-index: -1;
 }
 
 .header__footer {
@@ -68,12 +70,4 @@
 
 .header__paragraph {
   margin: 0;
-}
-
-.header__address {
-  display: flex;
-  justify-content: flex-end;
-  align-self: flex-end;
-  margin: 0;
-  z-index: 1;
 }
