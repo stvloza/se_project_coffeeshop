@@ -9,7 +9,7 @@
   max-height: 800px;
   min-height: 720px;
   margin: auto;
-  z-index: -2;
+  z-index: 1;
 }
 
 .header__title {
