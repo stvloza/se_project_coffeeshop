@@ -7,8 +7,7 @@
 }
 
 .reservation__title {
-  display: flex;
-  justify-content: center;
+  text-align: center;
   padding-top: 100px;
   font-family: "Inter", "Arial", sans-serif;
   font-weight: 500;

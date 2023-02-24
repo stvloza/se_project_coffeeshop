@@ -19,14 +19,12 @@
 }
 
 .recipes__subtitle {
-  display: flex;
-  justify-content: space-between;
-  padding-top: 24px;
   padding-left: 80px;
   max-width: 438px;
   font-family: "Noto Serif", "Times New Roman", Serif;
   font-size: 20px;
   line-height: 30px;
+  margin: 0;
 }
 
 .recipes__videos {
@@ -45,6 +43,7 @@
 }
 
 .recipes__iframe {
+  display: block;
   font-weight: 500;
   font-size: 20px;
   line-height: 30px;
@@ -54,9 +53,15 @@
 }
 
 .recipes__video-caption {
-  padding-top: 24px;
-  font-family: "Inter";
-  font-weight: 500;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+  margin: 24px 0 0 0;
   font-size: 20px;
   line-height: 30px;
+  font-family: "Inter", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  color: #000000;
 }

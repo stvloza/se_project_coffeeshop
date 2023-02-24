@@ -12,7 +12,7 @@
     <meta name="author" content="Esteban Loza" />
     <meta name="keywords" content="HTML, CSS, landing page" />
     <link rel="stylesheet" href="./pages/index.css" />
-    <link rel="icon" type="image/x-icon" href="./favicon.ico.ico" />
+    <link rel="icon" type="image/x-icon" href="./favicon.ico" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -65,9 +65,11 @@
             <p class="header__paragraph">Monday-Friday (10:00-19:00)</p>
             <p class="header__paragraph">Saturday-Sunday (11:00-18:00)</p>
           </div>
-          <p class="header__address">
-            200 Success Avenue, The Town of Practicum
-          </p>
+          <div class="header__address">
+            <p class="header__paragraph">
+              200 Success Avenue, The Town of Practicum
+            </p>
+          </div>
         </div>
       </header>
       <main class="content">
@@ -161,7 +163,8 @@
                 src="https://www.youtube.com/embed/j6VlT_jUVPc"
               ></iframe>
               <p class="recipes__video-caption">
-                <span><span>Aeropress recipe</span> <span>~5 min</span></span>
+                <span>Aeropress recipe</span>
+                <span>~5 min</span>
               </p>
             </div>
             <div class="recipes__video">
@@ -202,7 +205,9 @@
                 placeholder="1-8"
                 required
               />
-              <label for="date_&_time" class="form__label">Date & time *</label>
+              <label for="date_and_time" class="form__label"
+                >Date & time *</label
+              >
               <input
                 type="datetime-local"
                 class="form__input"
@@ -221,9 +226,7 @@
               />
             </fieldset>
             <fieldset class="form__fieldset">
-              <button class="form__button form__button_theme" type="button">
-                Book a table
-              </button>
+              <button type="submit" class="form__button">Book a table</button>
             </fieldset>
             <fieldset class="form__fieldset form__fieldset_checkbox">
               <input

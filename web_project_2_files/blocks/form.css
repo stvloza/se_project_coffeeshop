@@ -2,7 +2,8 @@
   display: flex;
   flex-direction: column;
   margin: auto;
-  width: 385px;
+  width: 100%;
+  max-width: 385px;
   border: transparent;
   padding: 0px;
 }
@@ -28,33 +29,30 @@
 
 .form__input {
   border: 1px solid #838383;
-  height: 60px;
-  margin-top: 0px;
-  margin-bottom: 32px;
   border-radius: 4px;
+  min-height: 60px;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  margin-bottom: 32px;
+  font-family: "Inter", "Arial", sans-serif;
+  font-size: 20px;
+  line-height: 30px;
+  padding-left: 16px;
+  padding-right: 16px;
 }
 
 .form__button {
-  display: flex;
-  flex-direction: column;
-  margin: auto;
-  width: 385px;
-  border: transparent;
-  padding: 0px;
-}
-.form__button_theme {
-  background-color: #2f80ed;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: #ffffff;
   border-radius: 4px;
-  height: 60px;
+  background-color: #2f80ed;
+  color: #ffffff;
   font-family: "Inter", "Arial", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
-  border: transparent;
+  padding: 16px 0;
+  margin-bottom: 32px;
+  transition: transform 0.4s ease-out;
 }
 
 .form__button:hover {
@@ -62,10 +60,8 @@
 }
 
 .form__checkbox {
-  display: flex;
   align-items: center;
   border-radius: 2px;
-  flex-direction: row;
   height: 20px;
   width: 20px;
   padding: 0;
@@ -76,8 +72,6 @@
   vertical-align: middle;
   flex-direction: row;
   justify-content: center;
-  align-items: center;
-  border-radius: 2px;
   width: 385px;
   margin: auto;
   padding-bottom: 120px;
